@@ -1,0 +1,13 @@
+name: Ouushii
+version: 1.0.0
+main: com.ouushii.OuushiiPlugin
+api-version: '1.21'
+description: Draws a permanent "Welcome to VULT" sign out of dust particles with /vult and removes them with /vult delete.
+commands:
+  vult:
+    description: Show the Welcome to VULT sign, or delete all of them.
+    usage: /vult | /vult delete
+permissions:
+  vult.use:
+    description: Allows /vult and /vult delete
+    default: op
